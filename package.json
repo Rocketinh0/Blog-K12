@@ -1,0 +1,27 @@
+{
+  "name": "desafio-k-12",
+  "version": "1.0.0",
+  "description": "Desafio de criação de um Blog na Jornada Criativa K-12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json",
+    "dev": "node server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-loader": "^9.1.3",
+    "json-server": "^1.0.0-alpha.23",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "isomorphic-unfetch": "^4.0.2"
+  }
+}
